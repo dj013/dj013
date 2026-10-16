@@ -3,23 +3,21 @@
 **Senior Software Engineer - C++ · Real-time Visualization · ML Systems**
 Belgrade, Serbia · [LinkedIn](https://www.linkedin.com/in/djordje-andjelkovic-9b20a9193/) · andjelkovicdjordje@hotmail.com
 
-I build systems that cross layers: microsecond-latency C++ trading infrastructure on one
-end, GPU particle visualization (CesiumJS / GLSL) and in-browser ML inference (Whisper on
-ONNX Runtime Web, WebGPU/WASM) on the other.
-
-My main production work lives in private repositories, spanning an HFT crypto exchange
-and a real-time geospatial situational-awareness platform.
+Senior Software Engineer with 4+ years at Inceptive, working across C++ systems, real-time
+geospatial visualization and applied ML. Most of that work lives in private repositories:
+an HFT crypto exchange and a real-time 3D globe platform for situational awareness.
 
 ## What I work on
 
-- **C++ systems** - low-latency services on an in-house actor framework, Aeron/SBE
-  messaging, typed database libraries, Bazel monorepo toolchains
+- **C++ systems** - services on an in-house actor framework (Aeron/SBE messaging),
+  ScyllaDB and QuestDB client libraries, TCP reconnect reliability, Bazel monorepo toolchains
+- **LLM agents** - an in-app agent that operates a 3D globe through validated tools,
+  sandboxed code execution (OpenCode), hand-off between agents over MCP
 - **ML systems** - time-series anomaly detection, MLflow, Ray Serve, FastAPI,
   Parquet data paths, QuestDB ingestion
-- **On-device AI** - Whisper STT, ONNX Runtime Web, transformers.js, WebGPU/WASM,
-  quantized inference (fp32/fp16/q4)
-- **Graphics & geospatial** - CesiumJS, GLSL particle systems, weather, ocean-current
-  and satellite visualization
+- **In-browser ML** - Whisper speech recognition on ONNX Runtime Web (WebGPU/WASM)
+- **Graphics & geospatial** - CesiumJS, GLSL particle systems for wind and ocean currents,
+  satellite tracking, live data layers
 
 ## Upstream open source - MindsDB (~40k★)
 
@@ -33,5 +31,5 @@ and fixed them upstream. **4 merged PRs:**
 
 ## Currently
 
-Building browser-native speech recognition and voice-command routing, GPU wind and
-ocean-current visualization, and the reactive Svelte architecture that ties them together.
+Working on the globe platform's LLM agent, shared live rooms where several people see the
+same map, and the C++ networking and storage fixes underneath them.
